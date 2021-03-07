@@ -1,0 +1,11 @@
+https://spring.io/guides/gs/accessing-data-mysql/
+
+
+./mvnw spring-boot:run or
+./mvnw clean package java -jar target/*.jar
+
+Now that the application is running, you can test it by using curl:
+
+ curl localhost:8080/api/add -d name=First -d email=someemail@someemailprovider.com
+
+ curl 'localhost:8080/api/all'
