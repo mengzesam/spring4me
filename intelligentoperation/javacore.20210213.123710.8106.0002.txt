@@ -1,0 +1,890 @@
+0SECTION       TITLE subcomponent dump routine
+NULL           ===============================
+1TICHARSET     UTF-8
+1TISIGINFO     Dump Event "traceassert" (00080000) received
+1TIDATETIME    Date: 2021/02/13 at 12:37:10:064
+1TINANOTIME    System nanotime: 6696134096600
+1TIFILENAME    Javacore filename:    /mnt/d/linux/spring/intelligentoperation/javacore.20210213.123710.8106.0002.txt
+1TIREQFLAGS    Request Flags: 0x81 (exclusive+preempt)
+1TIPREPSTATE   Prep State: 0x100 (trace_disabled)
+1TIPREPINFO    Exclusive VM access not taken: data may not be consistent across javacore sections
+NULL           ------------------------------------------------------------------------
+0SECTION       GPINFO subcomponent dump routine
+NULL           ================================
+2XHOSLEVEL     OS Level         : Linux 4.4.0-18362-Microsoft
+2XHCPUS        Processors -
+3XHCPUARCH       Architecture   : amd64
+3XHNUMCPUS       How Many       : 4
+3XHNUMASUP       NUMA is either not supported or has been disabled by user
+NULL
+1XHERROR2      Register dump section only produced for SIGSEGV, SIGILL or SIGFPE.
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       ENVINFO subcomponent dump routine
+NULL           =================================
+1CIJAVAVERSION JRE 11 Linux amd64-64
+1CIVMVERSION   20210120_910
+1CIJ9VMTAG     openj9-0.24.0
+1CIJ9VMVERSION 345e1b09e
+1CIJITVERSION  j9jit_20210120_0856_
+1CIOMRVERSION  741e94ea8_CMPRSS
+1CIJCLVERSION  0a86953833 based on jdk-11.0.10+9
+1CIVENDOR      AdoptOpenJDK
+1CIPRODUCT     OpenJDK
+1CIEXTVERSION  11.0.10.0
+1CIJITMODES    JIT enabled, AOT enabled, FSD disabled, HCR disabled
+1CIRUNNINGAS   Running as an embedded JVM
+1CIVMIDLESTATE VM Idle State: ACTIVE
+1CICONTINFO    Running in container : FALSE
+1CICGRPINFO    JVM support for cgroups enabled : FALSE
+1CISTARTTIME   JVM start time: 2021/02/13 at 12:37:09:687
+1CISTARTNANO   JVM start nanotime: 6695757311900
+1CIPROCESSID   Process ID: 8106 (0x1FAA)
+1CICMDLINE     [not available]
+1CIJAVAHOMEDIR Java Home Dir:   /usr/lib/jvm/adoptopenjdk-11-openj9-amd64
+1CIJAVADLLDIR  Java DLL Dir:    /usr/lib/jvm/adoptopenjdk-11-openj9-amd64/bin
+1CISYSCP       Sys Classpath:   
+1CIUSERARGS    UserArgs:
+2CIUSERARG               -Xoptionsfile=/usr/lib/jvm/adoptopenjdk-11-openj9-amd64/lib/options.default
+2CIUSERARG               -Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple
+2CIUSERARG               -Xjcl:jclse29
+2CIUSERARG               -Dcom.ibm.oti.vm.bootstrap.library.path=/usr/lib/jvm/adoptopenjdk-11-openj9-amd64/lib/compressedrefs:/usr/lib/jvm/adoptopenjdk-11-openj9-amd64/lib
+2CIUSERARG               -Dsun.boot.library.path=/usr/lib/jvm/adoptopenjdk-11-openj9-amd64/lib/compressedrefs:/usr/lib/jvm/adoptopenjdk-11-openj9-amd64/lib
+2CIUSERARG               -Djava.library.path=/usr/lib/jvm/adoptopenjdk-11-openj9-amd64/lib/compressedrefs:/usr/lib/jvm/adoptopenjdk-11-openj9-amd64/lib:/usr/lib64:/usr/lib
+2CIUSERARG               -Djava.home=/usr/lib/jvm/adoptopenjdk-11-openj9-amd64
+2CIUSERARG               -Duser.dir=/mnt/d/linux/spring/intelligentoperation
+2CIUSERARG               -Djava.class.path=/mnt/d/linux/spring/intelligentoperation/.mvn/wrapper/maven-wrapper.jar
+2CIUSERARG               -Dmaven.home=/mnt/d/linux/spring
+2CIUSERARG               -Dmaven.multiModuleProjectDirectory=/mnt/d/linux/spring/intelligentoperation
+2CIUSERARG               -Dsun.java.command=org.apache.maven.wrapper.MavenWrapperMain help:effective-pom -Doutput=/home/mzs/.vscode-server/data/User/workspaceStorage/7f11db9a74be9fda2a21438d16925c7a/vscjava.vscode-maven/dd2dddd431cb9317c8914efea322e37a -f /mnt/d/linux/spring/intelligentoperation/pom.xml
+2CIUSERARG               -Dsun.java.launcher=SUN_STANDARD
+2CIUSERARG               -Dsun.java.launcher.pid=8106
+NULL
+1CIUSERLIMITS  User Limits (in bytes except for NOFILE and NPROC)
+NULL           ------------------------------------------------------------------------
+NULL           type                            soft limit           hard limit
+2CIUSERLIMIT   RLIMIT_AS                        unlimited            unlimited
+2CIUSERLIMIT   RLIMIT_CORE                      unlimited            unlimited
+2CIUSERLIMIT   RLIMIT_CPU                       unlimited            unlimited
+2CIUSERLIMIT   RLIMIT_DATA                      unlimited            unlimited
+2CIUSERLIMIT   RLIMIT_FSIZE                     unlimited            unlimited
+2CIUSERLIMIT   RLIMIT_LOCKS                     unlimited            unlimited
+2CIUSERLIMIT   RLIMIT_MEMLOCK                       65536                65536
+2CIUSERLIMIT   RLIMIT_NOFILE                        65536                65536
+2CIUSERLIMIT   RLIMIT_NPROC                          7823                 7823
+2CIUSERLIMIT   RLIMIT_RSS                       unlimited            unlimited
+2CIUSERLIMIT   RLIMIT_STACK                       8388608              8388608
+2CIUSERLIMIT   RLIMIT_MSGQUEUE                     819200               819200
+2CIUSERLIMIT   RLIMIT_NICE                              0                    0
+2CIUSERLIMIT   RLIMIT_RTPRIO                            0                    0
+2CIUSERLIMIT   RLIMIT_SIGPENDING                     7823                 7823
+NULL
+1CIENVVARS     Environment Variables
+NULL           ------------------------------------------------------------------------
+2CIENVVAR      LESSOPEN=| /usr/bin/lesspipe %s
+2CIENVVAR      USER=mzs
+2CIENVVAR      VSCODE_NLS_CONFIG={"locale":"en","availableLanguages":{}}
+2CIENVVAR      VSCODE_WSL_EXT_LOCATION=/mnt/c/Users/mengz/.vscode/extensions/ms-vscode-remote.remote-wsl-0.53.4
+2CIENVVAR      VSCODE_HANDLES_UNCAUGHT_ERRORS=true
+2CIENVVAR      SHLVL=0
+2CIENVVAR      VSCODE_LOG_STACK=false
+2CIENVVAR      BROWSER=/home/mzs/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/bin/helpers/browser.sh
+2CIENVVAR      HOME=/home/mzs
+2CIENVVAR      OLDPWD=/mnt/d/linux/spring/intelligentoperation
+2CIENVVAR      VSCODE_IPC_HOOK_CLI=/tmp/vscode-ipc-bf16fe1d-e537-4118-a077-35e366dbf07a.sock
+2CIENVVAR      APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL=true
+2CIENVVAR      MAVEN_CMD_LINE_ARGS= help:effective-pom -Doutput=/home/mzs/.vscode-server/data/User/workspaceStorage/7f11db9a74be9fda2a21438d16925c7a/vscjava.vscode-maven/dd2dddd431cb9317c8914efea322e37a -f /mnt/d/linux/spring/intelligentoperation/pom.xml
+2CIENVVAR      WSL_DISTRO_NAME=Ubuntu-20.04
+2CIENVVAR      VSCODE_EXTHOST_WILL_SEND_SOCKET=true
+2CIENVVAR      MAVEN_PROJECTBASEDIR=/mnt/d/linux/spring/intelligentoperation
+2CIENVVAR      LOGNAME=mzs
+2CIENVVAR      NAME=DESKTOP-7PPJ6EB
+2CIENVVAR      _=/home/mzs/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/node
+2CIENVVAR      TERM=xterm-256color
+2CIENVVAR      VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH=/home/mzs/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/remote/node_modules
+2CIENVVAR      PATH=/home/mzs/.vscode-server/bin/8490d3dde47c57ba65ec40dd192d014fd2113496/bin:/home/mzs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/mengz/AppData/Local/Microsoft/WindowsApps:/snap/bin:/home/mzs/.local/bin:/home/mzs/.spring-boot-cli-2.4.2/bin
+2CIENVVAR      VSCODE_AGENT_FOLDER=/home/mzs/.vscode-server
+2CIENVVAR      VSCODE_AMD_ENTRYPOINT=vs/server/remoteExtensionHostProcess
+2CIENVVAR      LANG=C.UTF-8
+2CIENVVAR      LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+2CIENVVAR      SHELL=/bin/bash
+2CIENVVAR      LESSCLOSE=/usr/bin/lesspipe %s %s
+2CIENVVAR      VSCODE_VERBOSE_LOGGING=true
+2CIENVVAR      VSCODE_PIPE_LOGGING=true
+2CIENVVAR      PWD=/mnt/d/linux/spring/intelligentoperation
+2CIENVVAR      JAVA_HOME=/usr/lib/jvm/adoptopenjdk-11-openj9-amd64
+2CIENVVAR      XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+2CIENVVAR      HOSTTYPE=x86_64
+2CIENVVAR      WSLENV=VSCODE_WSL_EXT_LOCATION/up
+NULL
+1CICPUINFO     CPU Information
+NULL           ------------------------------------------------------------------------
+2CIPHYSCPU     Physical CPUs: 4
+2CIONLNCPU     Online CPUs: 4
+2CIBOUNDCPU    Bound CPUs: 4
+2CIACTIVECPU   Active CPUs: 0
+2CITARGETCPU   Target CPUs: 4
+2CIJITFEATURE  CPU features (JIT): fpu cx8 cmov mmx sse sse2 ssse3 fma sse4_1 popcnt aesni osxsave avx avx2 rdt_m
+2CIAOTFEATURE  CPU features (AOT): fpu cx8 cmov mmx sse sse2 ssse3 fma sse4_1 popcnt aesni osxsave avx avx2 rdt_m
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       NATIVEMEMINFO subcomponent dump routine
+NULL           =================================
+0MEMUSER
+1MEMUSER       JRE: 2,987,564,016 bytes / 1271 allocations
+1MEMUSER       |
+2MEMUSER       +--VM: 2,701,232,888 bytes / 1182 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Classes: 325,834,224 bytes / 79 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Shared Class Cache: 314,572,896 bytes / 2 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 11,261,328 bytes / 77 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Modules: 5,200 bytes / 7 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Memory Manager (GC): 2,155,842,720 bytes / 352 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Java Heap: 2,113,662,976 bytes / 1 allocation
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 42,179,744 bytes / 351 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Threads: 8,849,032 bytes / 86 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Java Stack: 111,240 bytes / 9 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Native Stack: 8,650,752 bytes / 9 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 87,040 bytes / 68 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Trace: 92,872 bytes / 146 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--JVMTI: 17,776 bytes / 13 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--JNI: 8,768 bytes / 6 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Port Library: 209,573,680 bytes / 67 allocations
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Unused <32bit allocation regions: 209,563,696 bytes / 1 allocation
+3MEMUSER       |  |  |
+4MEMUSER       |  |  +--Other: 9,984 bytes / 66 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--Other: 1,008,616 bytes / 426 allocations
+1MEMUSER       |
+2MEMUSER       +--JIT: 286,326,312 bytes / 85 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--JIT Code Cache: 268,435,456 bytes / 1 allocation
+2MEMUSER       |  |
+3MEMUSER       |  +--Other: 17,890,856 bytes / 84 allocations
+1MEMUSER       |
+2MEMUSER       +--Class Libraries: 4,816 bytes / 4 allocations
+2MEMUSER       |  |
+3MEMUSER       |  +--VM Class Libraries: 4,816 bytes / 4 allocations
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       MEMINFO subcomponent dump routine
+NULL           =================================
+NULL
+1STHEAPTYPE    Object Memory
+NULL           id                 start              end                size               space/region
+1STHEAPSPACE   0x00007FEE4C09A310         --                 --                 --         Generational
+1STHEAPREGION  0x00007FEE4C09AB00 0x0000000082050000 0x0000000082650000 0x0000000000600000 Generational/Tenured Region
+1STHEAPREGION  0x00007FEE4C09A770 0x00000000FFE00000 0x00000000FFF00000 0x0000000000100000 Generational/Nursery Region
+1STHEAPREGION  0x00007FEE4C09A3E0 0x00000000FFF00000 0x0000000100000000 0x0000000000100000 Generational/Nursery Region
+NULL
+1STHEAPTOTAL   Total memory:                     8388608 (0x0000000000800000)
+1STHEAPINUSE   Total memory in use:              1048576 (0x0000000000100000)
+1STHEAPFREE    Total memory free:                7340032 (0x0000000000700000)
+NULL
+1STSEGTYPE     Internal Memory
+NULL           segment            start              alloc              end                type       size
+1STSEGMENT     0x00007FEE4C074380 0x00007FEE2B000000 0x00007FEE2B000000 0x00007FEE2C000000 0x01000440 0x0000000001000000
+1STSEGMENT     0x00007FEE4C0742B8 0x00007FEE402B0030 0x00007FEE40326070 0x00007FEE403B0030 0x00800040 0x0000000000100000
+NULL
+1STSEGTOTAL    Total memory:                    17825792 (0x0000000001100000)
+1STSEGINUSE    Total memory in use:               483392 (0x0000000000076040)
+1STSEGFREE     Total memory free:               17342400 (0x0000000001089FC0)
+NULL
+1STSEGTYPE     Class Memory
+NULL           segment            start              alloc              end                type       size
+NULL
+1STSEGTOTAL    Total memory:                           0 (0x0000000000000000)
+1STSEGINUSE    Total memory in use:                    0 (0x0000000000000000)
+1STSEGFREE     Total memory free:                      0 (0x0000000000000000)
+NULL
+1STSEGTYPE     JIT Code Cache
+NULL           segment            start              alloc              end                type       size
+1STSEGMENT     0x00007FEE4C0CE0F8 0x00007FEE302B0000 0x00007FEE302B0D90 0x00007FEE402B0000 0x00000068 0x0000000010000000
+NULL
+1STSEGTOTAL    Total memory:                   268435456 (0x0000000010000000)
+1STSEGINUSE    Total memory in use:                 3472 (0x0000000000000D90)
+1STSEGFREE     Total memory free:              268431984 (0x000000000FFFF270)
+1STSEGLIMIT    Allocation limit:               268435456 (0x0000000010000000)
+NULL
+1STSEGTYPE     JIT Data Cache
+NULL           segment            start              alloc              end                type       size
+NULL
+1STSEGTOTAL    Total memory:                           0 (0x0000000000000000)
+1STSEGINUSE    Total memory in use:                    0 (0x0000000000000000)
+1STSEGFREE     Total memory free:                      0 (0x0000000000000000)
+1STSEGLIMIT    Allocation limit:               402653184 (0x0000000018000000)
+NULL
+1STGCHTYPE     GC History
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       LOCKS subcomponent dump routine
+NULL           ===============================
+NULL
+1LKPOOLINFO    Monitor pool info:
+2LKPOOLTOTAL     Current total number of monitors: 0
+NULL
+1LKMONPOOLDUMP Monitor Pool Dump (flat & inflated object-monitors):
+NULL
+1LKREGMONDUMP  JVM System Monitor Dump (registered monitors):
+2LKREGMON          Thread global lock (0x00007FEE4C0196F8): <unowned>
+2LKREGMON          &(PPG_mem_mem32_subAllocHeapMem32.monitor) lock (0x00007FEE4C0197A8): <unowned>
+2LKREGMON          NLS hash table lock (0x00007FEE4C019858): <unowned>
+2LKREGMON          cgroup entry list monitor lock (0x00007FEE4C019908): <unowned>
+2LKREGMON          portLibrary_omrsig_registerHandler_monitor lock (0x00007FEE4C0199B8): <unowned>
+2LKREGMON          portLibrary_omrsig_asynch_reporter_shutdown_monitor lock (0x00007FEE4C019A68): <unowned>
+2LKREGMON          portLibrary_omrsig_async_monitor lock (0x00007FEE4C019B18): <unowned>
+2LKREGMON          &(PHD_vendorMonitor) lock (0x00007FEE4C019BC8): <unowned>
+2LKREGMON          &(vm->systemPropertiesMutex) lock (0x00007FEE4C019C78): <unowned>
+2LKREGMON          Hook Interface lock (0x00007FEE4C019D28): <unowned>
+2LKREGMON          Hook Interface lock (0x00007FEE4C019DD8): <unowned>
+2LKREGMON          OMR VM list mutex lock (0x00007FEE4C019E88): <unowned>
+2LKREGMON          OMR VM thread list mutex lock (0x00007FEE4C019F38): <unowned>
+2LKREGMON          dump tokens mutex lock (0x00007FEE4C019FE8): <unowned>
+2LKREGMON          VM hidden fields list lock (0x00007FEE4C01A098): <unowned>
+2LKREGMON          MM_SublistPool lock (0x00007FEE4C01A148): <unowned>
+2LKREGMON          Hook Interface lock (0x00007FEE4C01A1F8): <unowned>
+2LKREGMON          Hook Interface lock (0x00007FEE4C01A2A8): <unowned>
+2LKREGMON          GCExtensions::gcExclusiveAccessMutex lock (0x00007FEE4C01A358): <unowned>
+2LKREGMON          GCExtensions::_lightweightNonReentrantLockPoolMutex lock (0x00007FEE4C01A408): <unowned>
+2LKREGMON          gcCycleOn lock (0x00007FEE4C01A4B8): <unowned>
+2LKREGMON          Hook Interface lock (0x00007FEE4C01A568): <unowned>
+2LKREGMON          MM_ParallelDispatcher::workerThread lock (0x00007FEE4C01A618): <unowned>
+2LKREGMON          MM_ParallelDispatcher::dispatcherControl lock (0x00007FEE4C01A6C8): <unowned>
+2LKREGMON          MM_ParallelDispatcher::synchronize lock (0x00007FEE4C01A778): <unowned>
+2LKREGMON          MM_WorkPackets::inputList lock (0x00007FEE4C01A828): <unowned>
+2LKREGMON          MM_WorkPackets::allocatingPackets lock (0x00007FEE4C01A8D8): <unowned>
+2LKREGMON          MM_WorkPacketOverflow::overflowList lock (0x00007FEE4C01A988): <unowned>
+2LKREGMON          MM_ConcurrentOverflow::cardsClearingMonitor lock (0x00007FEE4C01AA38): <unowned>
+2LKREGMON          SweepPoolState Monitor lock (0x00007FEE4C01AAE8): <unowned>
+2LKREGMON          MM_ConcurrentGC::conHelpersActivation lock (0x00007FEE4C01AB98): <unowned>
+2LKREGMON          MM_ConcurrentGC::initWork lock (0x00007FEE4C01AC48): <unowned>
+2LKREGMON          MM_ConcurrentGC::concurrentTuning lock (0x00007FEE4C01ACF8): <unowned>
+2LKREGMON          MM_ConcurrentGC::initWorkComplete lock (0x00007FEE4C01ADA8): <unowned>
+2LKREGMON          Undead Segment List Monitor lock (0x00007FEE4C01AE58): <unowned>
+2LKREGMON          Class Loader List Monitor lock (0x00007FEE4C01AF08): <unowned>
+2LKREGMON          GC string table lock (0x00007FEE4C01AFB8): <unowned>
+2LKREGMON          GC string table lock (0x00007FEE4C01B068): <unowned>
+2LKREGMON          GC string table lock (0x00007FEE4C01B118): <unowned>
+2LKREGMON          GC string table lock (0x00007FEE4C01B1C8): <unowned>
+2LKREGMON          MM_GCExtensions::gcStats lock (0x00007FEE4C01B278): <unowned>
+2LKREGMON          Unsafe memory allocation tracking lock (0x00007FEE4C01B328): <unowned>
+2LKREGMON          JIT-SmallBlockListsMonitor lock (0x00007FEE4C01B3D8): <unowned>
+2LKREGMON          &vm->verboseStateMutex lock (0x00007FEE4C01B488): <unowned>
+2LKREGMON          VM thread list lock (0x00007FEE4C01B538): <unowned>
+2LKREGMON          VM exclusive access lock (0x00007FEE4C01B5E8): <unowned>
+2LKREGMON          VM Runtime flags Mutex lock (0x00007FEE4C01B698): <unowned>
+2LKREGMON          VM Extended method block flags Mutex lock (0x00007FEE4C01B748): <unowned>
+2LKREGMON          Async event mutex lock (0x00007FEE4C01B7F8): <unowned>
+2LKREGMON          JIT/GC class unload mutex lock (0x00007FEE4C01B8A8): <unowned>
+2LKREGMON          VM bind native lock (0x00007FEE4C01B958): <unowned>
+2LKREGMON          JCL cache mutex lock (0x00007FEE4C01BA08): <unowned>
+2LKREGMON          VM Statistics List Mutex lock (0x00007FEE4C01BAB8): <unowned>
+2LKREGMON          Field Index Hashtable Mutex lock (0x00007FEE4C01BB68): <unowned>
+2LKREGMON          JNI critical region mutex lock (0x00007FEE4C01BC18): <unowned>
+2LKREGMON          VM class loader modules lock (0x00007FEE4C01BCC8): <unowned>
+2LKREGMON          VM class loader blocks lock (0x00007FEE4C01BD78): <unowned>
+2LKREGMON          VM class table lock (0x00007FEE4C01BE28): <unowned>
+2LKREGMON          VM segment lock (0x00007FEE4C01BED8): <unowned>
+2LKREGMON          VM JNI frame lock (0x00007FEE4C01BF88): <unowned>
+2LKREGMON          VM GC finalize main lock (0x00007FEE4C01C038): <unowned>
+2LKREGMON          VM GC finalize run finalization lock (0x00007FEE4C01C0E8): <unowned>
+2LKREGMON          VM GC process reference lock (0x00007FEE4C01C198): <unowned>
+2LKREGMON          VM AOT runtime init lock (0x00007FEE4C01C248): <unowned>
+2LKREGMON          OSR global buffer lock lock (0x00007FEE4C06F178): <unowned>
+2LKREGMON          JNI native library loading lock lock (0x00007FEE4C06F228): <unowned>
+2LKREGMON          VM state notification mutex lock (0x00007FEE4C06F2D8): <unowned>
+2LKREGMON          Wait mutex for constantDynamic during resolve lock (0x00007FEE4C06F388): <unowned>
+2LKREGMON          VM monitor table lock (0x00007FEE4C06F438): Flat locked by "(unnamed thread)" (J9VMThread:0x0000000000007700), entry count 1
+2LKREGMON          VM mem segment list lock (0x00007FEE4C06F4E8): <unowned>
+2LKREGMON          VM mem segment list lock (0x00007FEE4C06F598): <unowned>
+2LKREGMON          MM_Scavenger::scanCacheMonitor lock (0x00007FEE4C06F648): <unowned>
+2LKREGMON          MM_Scavenger::freeCacheMonitor lock (0x00007FEE4C06F6F8): <unowned>
+2LKREGMON          FinalizeListManager lock (0x00007FEE4C06F7A8): <unowned>
+2LKREGMON          &(jvmtiData->mutex) lock (0x00007FEE4C06F858): <unowned>
+2LKREGMON          &(jvmtiData->redefineMutex) lock (0x00007FEE4C06F908): <unowned>
+2LKREGMON          &(jvmtiData->compileEventMutex) lock (0x00007FEE4C06F9B8): <unowned>
+2LKREGMON          BCVD verifier lock (0x00007FEE4C06FA68): <unowned>
+2LKREGMON          global mapMemoryBuffer mutex lock (0x00007FEE4C06FB18): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FEE4C06FBC8): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FEE4C06FC78): <unowned>
+2LKREGMON          jvmriDumpThread lock (0x00007FEE4C06FD28): <unowned>
+2LKREGMON          J9VM Trace Lock lock (0x00007FEE4C06FDD8): <unowned>
+2LKREGMON          Global Trace lock (0x00007FEE4C06FE88): <unowned>
+2LKREGMON          Global Record Subscribers lock (0x00007FEE4C06FF38): <unowned>
+2LKREGMON          Global Trace Thread lock (0x00007FEE4C06FFE8): <unowned>
+2LKREGMON          Trace Trigger on tpid lock (0x00007FEE4C070098): <unowned>
+2LKREGMON          Trace Trigger on groups lock (0x00007FEE4C070148): <unowned>
+2LKREGMON          Global Trace Free Queue lock (0x00007FEE4C0701F8): <unowned>
+2LKREGMON          Trace Queue Alarm lock (0x00007FEE4C0702A8): <unowned>
+2LKREGMON          Trace Queue lock (0x00007FEE4C070358): <unowned>
+2LKREGMON          jvmriDumpThread lock (0x00007FEE4C070408): <unowned>
+2LKREGMON          JIT-MonitorTableMonitor lock (0x00007FEE4C0704B8): <unowned>
+2LKREGMON          JIT-MemoryAllocMonitor lock (0x00007FEE4C070568): <unowned>
+2LKREGMON          JIT-ScratchMemoryPoolMonitor lock (0x00007FEE4C070618): <unowned>
+2LKREGMON          JIT-IProfilerPersistenceMonitor lock (0x00007FEE4C0706C8): <unowned>
+2LKREGMON          Hook Interface lock (0x00007FEE4C070778): <unowned>
+2LKREGMON          JIT thunk table lock (0x00007FEE4C070828): <unowned>
+2LKREGMON          JIT-AssumptionTableMutex lock (0x00007FEE4C0708D8): <unowned>
+2LKREGMON          VM mem segment list lock (0x00007FEE4C070988): <unowned>
+2LKREGMON          VM mem segment list lock (0x00007FEE4C070A38): <unowned>
+2LKREGMON          JIT-CompilationQueueMonitor lock (0x00007FEE4C070AE8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "(unnamed thread)" (J9VMThread:0x000000000000B300)
+2LKREGMON          JIT-SchedulingMonitor lock (0x00007FEE4C070B98): <unowned>
+2LKREGMON          JIT-DLTmonitor lock (0x00007FEE4C070C48): <unowned>
+2LKREGMON          JIT-IProfilerBufferArrivalMonitor lock (0x00007FEE4C070CF8): <unowned>
+2LKREGMON          JIT-GpuInitializationMonitor lock (0x00007FEE4C070DA8): <unowned>
+2LKREGMON          JIT-SequencingMonitor lock (0x00007FEE4C070E58): <unowned>
+2LKREGMON          JIT-ClassesCachedAtServerMonitor lock (0x00007FEE4C070F08): <unowned>
+2LKREGMON          JIT-ArtifactMonitor lock (0x00007FEE4C070FB8): <unowned>
+2LKREGMON          CodeCacheRepositoryMonitor lock (0x00007FEE4C071068): <unowned>
+2LKREGMON          JIT-CodeCacheListMutex lock (0x00007FEE4C071118): <unowned>
+2LKREGMON          CodeCacheUsageMonitor lock (0x00007FEE4C0711C8): <unowned>
+2LKREGMON          JIT-CodeCacheMonitor-?? lock (0x00007FEE4C071278): <unowned>
+2LKREGMON          JIT-DataCacheManagerMutex lock (0x00007FEE4C071328): <unowned>
+2LKREGMON          OptimizationPlanMonitor lock (0x00007FEE4C0713D8): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FEE4C071488): <unowned>
+2LKREGMON          Thread public flags mutex lock (0x00007FEE4C071538): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FEE4C0715E8): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FEE4C071698): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JIT Compilation Thread-001 Suspended" (J9VMThread:0x000000000000EF00)
+2LKREGMON          Thread public flags mutex lock (0x00007FEE4C071748): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FEE4C0717F8): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FEE4C0718A8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JIT Compilation Thread-002 Suspended" (J9VMThread:0x0000000000012B00)
+2LKREGMON          Thread public flags mutex lock (0x00007FEE4C071958): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FEE4C071A08): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FEE4C071AB8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JIT Compilation Thread-003 Suspended" (J9VMThread:0x0000000000016700)
+2LKREGMON          Thread public flags mutex lock (0x00007FEE4C071B68): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FEE4C071C18): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FEE4C071CC8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JIT Compilation Thread-004 Suspended" (J9VMThread:0x000000000001A300)
+2LKREGMON          Thread public flags mutex lock (0x00007FEE14000B78): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FEE14000C28): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FEE14000CD8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JIT Compilation Thread-005 Suspended" (J9VMThread:0x000000000001DF00)
+2LKREGMON          Thread public flags mutex lock (0x00007FEE14000D88): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FEE14000E38): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FEE14000EE8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JIT Compilation Thread-006 Suspended" (J9VMThread:0x0000000000021B00)
+2LKREGMON          Thread public flags mutex lock (0x00007FEE14000F98): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FEE14001048): <unowned>
+2LKREGMON          JIT-CompThreadMonitor-?? lock (0x00007FEE140010F8): <unowned>
+3LKNOTIFYQ            Waiting to be notified:
+3LKWAITNOTIFY            "JIT Diagnostic Compilation Thread-007 Suspended" (J9VMThread:0x0000000000025600)
+2LKREGMON          Thread public flags mutex lock (0x00007FEE140011A8): <unowned>
+2LKREGMON          &vmthread->threadNameMutex lock (0x00007FEE14001258): <unowned>
+2LKREGMON          JIT-LogMonitor lock (0x00007FEE14001308): <unowned>
+2LKREGMON          JIT-InterpreterProfilingMonitor lock (0x00007FEE140013B8): <unowned>
+2LKREGMON          ValueProfilingMutex lock (0x00007FEE14001468): <unowned>
+2LKREGMON          InvokeExactJ2IThunkTable lock (0x00007FEE14001518): <unowned>
+2LKREGMON          &(tempConfig->configMonitor) lock (0x00007FEE140015C8): <unowned>
+2LKREGMON          &(tempConfig->jclCacheMutex) lock (0x00007FEE14001678): <unowned>
+2LKREGMON          &_refreshMutex lock (0x00007FEE14001728): <unowned>
+2LKREGMON          &_headerProtectMutex lock (0x00007FEE140017D8): <unowned>
+2LKREGMON          &_runtimeFlagsProtectMutex lock (0x00007FEE14001888): <unowned>
+2LKREGMON          Persistent shared classes lock mutex lock (0x00007FEE14001938): Flat locked by "(unnamed thread)" (J9VMThread:0x0000000000007700), entry count 1
+2LKREGMON          Persistent shared classes lock mutex lock (0x00007FEE140019E8): <unowned>
+2LKREGMON          Persistent shared classes lock mutex lock (0x00007FEE14001A98): <unowned>
+2LKREGMON          Persistent shared classes lock mutex lock (0x00007FEE14001B48): <unowned>
+2LKREGMON          Persistent shared classes lock mutex lock (0x00007FEE14001BF8): <unowned>
+2LKREGMON          &_htMutex lock (0x00007FEE14001CA8): <unowned>
+2LKREGMON          &_htMutex lock (0x00007FEE14001D58): <unowned>
+2LKREGMON          &_htMutex lock (0x00007FEE14001E08): <unowned>
+2LKREGMON          &_identifiedMutex lock (0x00007FEE14001EB8): <unowned>
+2LKREGMON          &_htMutex lock (0x00007FEE14001F68): <unowned>
+2LKREGMON          &_htMutex lock (0x00007FEE14002018): <unowned>
+2LKREGMON          &_htMutex lock (0x00007FEE140020C8): <unowned>
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       THREADS subcomponent dump routine
+NULL           =================================
+NULL
+1XMPOOLINFO    JVM Thread pool info:
+2XMPOOLTOTAL       Current total number of pooled threads: 9
+2XMPOOLLIVE        Current total number of live threads: 9
+2XMPOOLDAEMON      Current total number of live daemon threads: 8
+NULL
+1XMCURTHDINFO  Current thread
+3XMTHREADINFO      "(unnamed thread)" J9VMThread:0x0000000000007700, omrthread_t:0x00007FEE4C01C3E0, java/lang/Thread:0x0000000000000000, state:R, prio=0
+3XMTHREADINFO1            (native thread ID:0x1FB9, native priority:0x5, native policy:UNKNOWN, vmstate:R, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FEE520C0000, to:0x00007FEE528C1000, size:0x801000)
+3XMCPUTIME               CPU usage total: 0.343750000 secs, current category="System-JVM"
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+NULL
+1XMTHDINFO     Thread Details
+NULL
+3XMTHREADINFO      "JIT Compilation Thread-002 Suspended" J9VMThread:0x0000000000012B00, omrthread_t:0x00007FEE4C0DC270, java/lang/Thread:0x0000000000000000, state:R, prio=0
+3XMTHREADINFO1            (native thread ID:0x1FD1, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FEE2AEF1000, to:0x00007FEE2AFF1000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "JIT Compilation Thread-004 Suspended" J9VMThread:0x000000000001A300, omrthread_t:0x00007FEE4C0DD7A0, java/lang/Thread:0x0000000000000000, state:R, prio=0
+3XMTHREADINFO1            (native thread ID:0x1FD3, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FEE2ACD1000, to:0x00007FEE2ADD1000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "JIT Compilation Thread-003 Suspended" J9VMThread:0x0000000000016700, omrthread_t:0x00007FEE4C0DC7E8, java/lang/Thread:0x0000000000000000, state:R, prio=0
+3XMTHREADINFO1            (native thread ID:0x1FD2, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FEE2ADE1000, to:0x00007FEE2AEE1000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "JIT Compilation Thread-001 Suspended" J9VMThread:0x000000000000EF00, omrthread_t:0x00007FEE4C0DB2B8, java/lang/Thread:0x0000000000000000, state:R, prio=0
+3XMTHREADINFO1            (native thread ID:0x1FD0, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FEE30091000, to:0x00007FEE30191000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "JIT Compilation Thread-006 Suspended" J9VMThread:0x0000000000021B00, omrthread_t:0x00007FEE4C0DECD0, java/lang/Thread:0x0000000000000000, state:R, prio=0
+3XMTHREADINFO1            (native thread ID:0x1FD5, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FEE2AAB1000, to:0x00007FEE2ABB1000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "JIT Compilation Thread-005 Suspended" J9VMThread:0x000000000001DF00, omrthread_t:0x00007FEE4C0DDD18, java/lang/Thread:0x0000000000000000, state:R, prio=0
+3XMTHREADINFO1            (native thread ID:0x1FD4, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FEE2ABC1000, to:0x00007FEE2ACC1000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "(unnamed thread)" J9VMThread:0x000000000000B300, omrthread_t:0x00007FEE4C0DAD40, java/lang/Thread:0x0000000000000000, state:R, prio=0
+3XMTHREADINFO1            (native thread ID:0x1FCF, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FEE301A1000, to:0x00007FEE302A1000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+3XMTHREADINFO      "JIT Diagnostic Compilation Thread-007 Suspended" J9VMThread:0x0000000000025600, omrthread_t:0x00007FEE4C0DF248, java/lang/Thread:0x0000000000000000, state:R, prio=0
+3XMTHREADINFO1            (native thread ID:0x1FD6, native priority:0xB, native policy:UNKNOWN, vmstate:CW, vm thread flags:0x00000000)
+3XMTHREADINFO2            (native stack address range from:0x00007FEE2A9A1000, to:0x00007FEE2AAA1000, size:0x100000)
+3XMCPUTIME               CPU usage total: 0.0 secs, current category="JIT"
+3XMTHREADINFO3           No Java callstack associated with this thread
+3XMTHREADINFO3           No native callstack available for this thread
+NULL
+NULL
+1XMWLKTHDERR   The following was reported while collecting native stacks:
+2XMWLKTHDERR             failed to suspend process(4, -38)
+NULL
+1XECTHTYPE     Current thread history (J9VMThread:0x0000000000007700)
+3XEHSTTYPE     04:37:10:031072927 GMT j9shr.1012 - * ** ASSERTION FAILED ** at ../../../../../openj9/runtime/shared_common/CompositeCache.cpp:1972: ((this->_commonCCInfo->oldWriterCount == _theca->writerCount))
+3XEHSTTYPE     04:37:10:031069930 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:37:10:031069930 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:37:10:031068931 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:37:10:031067932 GMT j9shr.2195 - * CC changePartialPageProtection: Returning without changing page protection
+3XEHSTTYPE     04:37:10:030990009 GMT j9shr.643 -  <M startup: Manager started successfully
+3XEHSTTYPE     04:37:10:030989010 GMT j9shr.636 -  <M initializeHashTable: Exiting with 0
+3XEHSTTYPE     04:37:10:030987012 GMT j9shr.563 -  <RRM localHashTableCreate: Created hashtable at address 0x00007FEE4C117000
+3XEHSTTYPE     04:37:10:028114885 GMT j9shr.562 -  >RRM localHashTableCreate: Creating new hashtable with 63014 initial entries
+3XEHSTTYPE     04:37:10:028113886 GMT j9shr.635 -  >M initializeHashTable: Entering for Manager of TYPE_ATTACHED_DATA
+3XEHSTTYPE     04:37:10:028112887 GMT j9shr.639 -  >M startup: Starting up Manager of TYPE_ATTACHED_DATA
+3XEHSTTYPE     04:37:10:028076923 GMT j9shr.643 -  <M startup: Manager started successfully
+3XEHSTTYPE     04:37:10:028073926 GMT j9shr.636 -  <M initializeHashTable: Exiting with 0
+3XEHSTTYPE     04:37:10:028071928 GMT j9shr.563 -  <RRM localHashTableCreate: Created hashtable at address 0x00007FEE4C116E30
+3XEHSTTYPE     04:37:10:025049950 GMT j9shr.562 -  >RRM localHashTableCreate: Creating new hashtable with 63014 initial entries
+3XEHSTTYPE     04:37:10:025048951 GMT j9shr.635 -  >M initializeHashTable: Entering for Manager of TYPE_COMPILED_METHOD
+3XEHSTTYPE     04:37:10:025046953 GMT j9shr.639 -  >M startup: Starting up Manager of TYPE_COMPILED_METHOD
+3XEHSTTYPE     04:37:10:024915084 GMT j9shr.643 -  <M startup: Manager started successfully
+3XEHSTTYPE     04:37:10:024913086 GMT j9shr.636 -  <M initializeHashTable: Exiting with 0
+3XEHSTTYPE     04:37:10:024912087 GMT j9shr.650 -  <RMI localInitializePools: Done initializing pools
+3XEHSTTYPE     04:37:10:024894105 GMT j9shr.648 -  >RMI localInitializePools: Initializing ROMClassManager pools
+3XEHSTTYPE     04:37:10:024892107 GMT j9shr.97 -  <RMI localHashTableCreate: Created hashtable at address 0x00007FEE4C113A80
+3XEHSTTYPE     04:37:10:018121878 GMT j9shr.96 -  >RMI localHashTableCreate: Creating new hashtable with 157386 initial entries
+3XEHSTTYPE     04:37:10:018121878 GMT j9shr.635 -  >M initializeHashTable: Entering for Manager of TYPE_ROMCLASS
+3XEHSTTYPE     04:37:10:018119880 GMT j9shr.639 -  >M startup: Starting up Manager of TYPE_ROMCLASS
+3XEHSTTYPE     04:37:10:018110889 GMT j9shr.643 -  <M startup: Manager started successfully
+3XEHSTTYPE     04:37:10:018109890 GMT j9shr.709 -  <CMI localPostStartup: Done starting ClasspathManager.
+3XEHSTTYPE     04:37:10:018108891 GMT j9shr.707 -  >CMI localPostStartup: Starting ClasspathManager
+3XEHSTTYPE     04:37:10:018107892 GMT j9shr.636 -  <M initializeHashTable: Exiting with 0
+3XEHSTTYPE     04:37:10:018106893 GMT j9shr.654 -  <CMI localInitializePools: Done initializing pools. Returning 0
+3XEHSTTYPE     04:37:10:018106893 GMT j9shr.303 -  <CPC initializeIdentifiedClasspathArray: Returning new array 0x00007FEE4C1134C0
+3XEHSTTYPE     04:37:10:018104895 GMT j9shr.300 -  >CPC initializeIdentifiedClasspathArray: Creating new array with 20 elements
+3XEHSTTYPE     04:37:10:018090909 GMT j9shr.653 -  >CMI localInitializePools: Initializing ClasspathManager pools
+3XEHSTTYPE     04:37:10:018089910 GMT j9shr.1336 -  <CMI localHashTableCreate: Created hashtable at address 0x00007FEE4C0FFBF0
+3XEHSTTYPE     04:37:10:017716283 GMT j9shr.1335 -  >CMI localHashTableCreate: Creating new hashtable with 6311 initial entries
+3XEHSTTYPE     04:37:10:017715284 GMT j9shr.635 -  >M initializeHashTable: Entering for Manager of TYPE_CLASSPATH
+3XEHSTTYPE     04:37:10:017714285 GMT j9shr.639 -  >M startup: Starting up Manager of TYPE_CLASSPATH
+3XEHSTTYPE     04:37:10:017711288 GMT j9shr.643 -  <M startup: Manager started successfully
+3XEHSTTYPE     04:37:10:017710289 GMT j9shr.636 -  <M initializeHashTable: Exiting with 0
+3XEHSTTYPE     04:37:10:017709290 GMT j9shr.962 -  <BDMI localInitializePools: Done initializing pools
+3XEHSTTYPE     04:37:10:017698301 GMT j9shr.960 -  >BDMI localInitializePools: Initializing ByteDataManager pools
+3XEHSTTYPE     04:37:10:017697302 GMT j9shr.684 -  <BDMI localHashTableCreate: Created hashtable at address 0x00007FEE4C0F7AE0
+3XEHSTTYPE     04:37:10:017443556 GMT j9shr.683 -  >BDMI localHashTableCreate: Creating new hashtable with 3165 initial entries
+3XEHSTTYPE     04:37:10:017442557 GMT j9shr.635 -  >M initializeHashTable: Entering for Manager of TYPE_BYTE_DATA
+3XEHSTTYPE     04:37:10:017441558 GMT j9shr.639 -  >M startup: Starting up Manager of TYPE_BYTE_DATA
+3XEHSTTYPE     04:37:10:017438561 GMT j9shr.643 -  <M startup: Manager started successfully
+3XEHSTTYPE     04:37:10:017437562 GMT j9shr.636 -  <M initializeHashTable: Exiting with 0
+3XEHSTTYPE     04:37:10:017436563 GMT j9shr.590 -  <SMI localHashTableCreate: Created hashtable at address 0x00007FEE4C0E34E0
+3XEHSTTYPE     04:37:10:017299700 GMT j9shr.589 -  >SMI localHashTableCreate: Creating new hashtable with 3165 initial entries
+3XEHSTTYPE     04:37:10:017298701 GMT j9shr.635 -  >M initializeHashTable: Entering for Manager of TYPE_SCOPE
+3XEHSTTYPE     04:37:10:017297702 GMT j9shr.639 -  >M startup: Starting up Manager of TYPE_SCOPE
+3XEHSTTYPE     04:37:10:017283716 GMT j9shr.1069 -   CC findStart: Setting _scan to 00007FEE0A807FFC
+3XEHSTTYPE     04:37:10:017282717 GMT j9shr.2298 -   CM::getPrereqCache(): This shared cache does not have a prerequisite cache
+3XEHSTTYPE     04:37:10:017272727 GMT j9shr.1133 -  <OSCache::getCacheDir: Exit
+3XEHSTTYPE     04:37:10:017271728 GMT j9prt.788 -  <j9shmem_getDir: Exiting with buffer=/home/mzs/javasharedresources/
+3XEHSTTYPE     04:37:10:017227772 GMT j9prt.787 -  >j9shmem_getDir: Entering
+3XEHSTTYPE     04:37:10:017226773 GMT j9shr.1129 -  >OSCache::getCacheDir: Entry
+3XEHSTTYPE     04:37:10:017225774 GMT j9shr.1180 -  <CM sanityWalkROMClassSegment: Exiting with all OK
+3XEHSTTYPE     04:37:10:017210789 GMT j9shr.1178 -  >CM sanityWalkROMClassSegment: Entered
+3XEHSTTYPE     04:37:10:017209790 GMT j9shr.1039 -  <CC startup: Exiting with rc=0
+3XEHSTTYPE     04:37:10:017160839 GMT j9shr.1211 -  <CC getCacheCRC: Exiting with CRC value=704250871, _theca->crcValue=0
+3XEHSTTYPE     04:37:10:017160839 GMT j9shr.1227 -  <CC getCacheAreaCRC: Exiting with CRC value=3399646293, stepsize=1535
+3XEHSTTYPE     04:37:10:017153846 GMT j9shr.1226 -  >CC getCacheAreaCRC: Entering with areaStart=00007FEE0A804064, areaSize=16284
+3XEHSTTYPE     04:37:10:017152847 GMT j9shr.1227 -  <CC getCacheAreaCRC: Exiting with CRC value=1599571874, stepsize=1535
+3XEHSTTYPE     04:37:10:016816183 GMT j9shr.1226 -  >CC getCacheAreaCRC: Entering with areaStart=00007FEDF9459000, areaSize=1062736
+3XEHSTTYPE     04:37:10:016815184 GMT j9shr.1210 -  >CC getCacheCRC: Entering
+3XEHSTTYPE     04:37:10:016810189 GMT j9shr.849 -  <SH_OSCachemmap::attach: data address returned is 00007FEDF94000F0
+3XEHSTTYPE     04:37:10:016809190 GMT j9shr.769 -  <SH_OSCachemmap::releaseHeaderWriteLock: Exiting, rc = 0
+3XEHSTTYPE     04:37:10:016808191 GMT j9shr.768 -   SH_OSCachemmap::releaseHeaderWriteLock: Unlock successful
+3XEHSTTYPE     04:37:10:016806193 GMT j9shr.766 -   SH_OSCachemmap::releaseHeaderWriteLock: Attempting to release lock for file handle = 4, offset = 152, length = 4
+3XEHSTTYPE     04:37:10:016805194 GMT j9shr.765 -  >SH_OSCachemmap::releaseHeaderWriteLock: Entering
+3XEHSTTYPE     04:37:10:016804195 GMT j9shr.847 -   SH_OSCachemmap::attach: lastAttachedTime updated successfully
+3XEHSTTYPE     04:37:10:016803196 GMT j9shr.852 -  <SH_OSCachemmap::updateLastAttachedTime: Successful exit
+3XEHSTTYPE     04:37:10:016801198 GMT j9shr.851 -   SH_OSCachemmap::updateLastAttachedTime: time being updated to 1613191030017, from 1613191029938
+3XEHSTTYPE     04:37:10:016800199 GMT j9shr.850 -  >SH_OSCachemmap::updateLastAttachedTime: Entered
+3XEHSTTYPE     04:37:10:016799200 GMT j9shr.844 -   SH_OSCachemmap::attach: Cache header is valid
+3XEHSTTYPE     04:37:10:016798201 GMT j9shr.815 -  <SH_OSCachemmap::isCacheHeaderValid: Header is valid
+3XEHSTTYPE     04:37:10:016797202 GMT j9shr.1159 -  <OSCache::checkOSCacheHeader: Exit - OSCache header verified
+3XEHSTTYPE     04:37:10:016788211 GMT j9shr.1153 -  >OSCache::checkOSCacheHeader: Entry - header=00007FEDF9400008, versionData=00007FEE528BC400, headerLen=240
+3XEHSTTYPE     04:37:10:016787212 GMT j9shr.812 -  >SH_OSCachemmap::isCacheHeaderValid: Entering cache header addr = 00007FEDF9400000
+3XEHSTTYPE     04:37:10:016780219 GMT j9shr.840 -  <SH_OSCachemmap::internalAttach: data address returned is 00007FEDF94000F0 (size of cache header is 240)
+3XEHSTTYPE     04:37:10:016776223 GMT j9shr.839 -   SH_OSCachemmap::internalAttach: j9mmap_map_file successful, file mapped at 00007FEDF9400000
+3XEHSTTYPE     04:37:10:016774225 GMT omrport.404 -  <omrmmap_map_file: Successful, returning pointer=00007FEDF9400000, handle=00007FEE4C0E3470
+3XEHSTTYPE     04:37:10:013727272 GMT omrport.402 -   omrmmap_map_file: Flags set, prot=0x3, flags=0x1
+3XEHSTTYPE     04:37:10:013726273 GMT omrport.400 -  >omrmmap_map_file: Entered, file=4, offset = 0, size=314572800, mappingName=/home/mzs/javasharedresources/C290M11F1A64P_sharedcc_mzs_G41L00, flags=0x24
+3XEHSTTYPE     04:37:10:013697302 GMT j9shr.837 -   SH_OSCachemmap::internalAttach: Successfully acquired attach read lock
+3XEHSTTYPE     04:37:10:013696303 GMT j9shr.799 -  <SH_OSCachemmap::acquireAttachReadLock: Exiting, rc = 0
+3XEHSTTYPE     04:37:10:013696303 GMT j9shr.798 -   SH_OSCachemmap::acquireAttachReadLock: Lock successful
+3XEHSTTYPE     04:37:10:013694305 GMT j9shr.796 -   SH_OSCachemmap::acquireAttachReadLock: Attempting to get lock for file handle = 4, lock flags = 0x5, offset = 156, length = 4
+3XEHSTTYPE     04:37:10:013693306 GMT j9shr.795 -  >SH_OSCachemmap::acquireAttachReadLock: Entering
+3XEHSTTYPE     04:37:10:013692307 GMT j9shr.833 -  >SH_OSCachemmap::internalAttach: Entered
+3XEHSTTYPE     04:37:10:013691308 GMT j9shr.764 -  <SH_OSCachemmap::acquireHeaderWriteLock: Exiting, rc = 0
+3XEHSTTYPE     04:37:10:013691308 GMT j9shr.763 -   SH_OSCachemmap::acquireHeaderWriteLock: Lock successful
+3XEHSTTYPE     04:37:10:013689310 GMT j9shr.761 -   SH_OSCachemmap::acquireHeaderWriteLock: Attempting to get lock for file handle = 4, lock flags = 0x6, offset = 152, length = 4
+3XEHSTTYPE     04:37:10:013688311 GMT j9shr.760 -  >SH_OSCachemmap::acquireHeaderWriteLock: Entering
+3XEHSTTYPE     04:37:10:013687312 GMT j9shr.1762 -  >SH_OSCachemmap::attach: Enter with unitTest=0
+3XEHSTTYPE     04:37:10:013676323 GMT j9shr.743 -  <SH_OSCachemmap::startup: Successful exit
+3XEHSTTYPE     04:37:10:013676323 GMT j9shr.741 -   SH_OSCachemmap::startup: Successfully released header write lock
+3XEHSTTYPE     04:37:10:013675324 GMT j9shr.769 -  <SH_OSCachemmap::releaseHeaderWriteLock: Exiting, rc = 0
+3XEHSTTYPE     04:37:10:013674325 GMT j9shr.768 -   SH_OSCachemmap::releaseHeaderWriteLock: Unlock successful
+3XEHSTTYPE     04:37:10:013672327 GMT j9shr.766 -   SH_OSCachemmap::releaseHeaderWriteLock: Attempting to release lock for file handle = 4, offset = 152, length = 4
+3XEHSTTYPE     04:37:10:013671328 GMT j9shr.765 -  >SH_OSCachemmap::releaseHeaderWriteLock: Entering
+3XEHSTTYPE     04:37:10:013670329 GMT j9shr.868 -  <SH_OSCachemmap::internalDetach: Exiting, reset _mapAddr to 0000000000000000, _mapDataAddr to 0000000000000000, _mapDataLength to 0
+3XEHSTTYPE     04:37:10:013669330 GMT j9shr.867 -   SH_OSCachemmap::internalDetach: Successfully released attach read lock
+3XEHSTTYPE     04:37:10:013668331 GMT j9shr.804 -  <SH_OSCachemmap::releaseAttachReadLock: Exiting, rc = 0
+3XEHSTTYPE     04:37:10:013668331 GMT j9shr.803 -   SH_OSCachemmap::releaseAttachReadLock: Unlock successful
+3XEHSTTYPE     04:37:10:013664335 GMT j9shr.801 -   SH_OSCachemmap::releaseAttachReadLock: Attempting to release lock for file handle = 4, offset = 156, length = 4
+3XEHSTTYPE     04:37:10:013663336 GMT j9shr.800 -  >SH_OSCachemmap::releaseAttachReadLock: Entering
+3XEHSTTYPE     04:37:10:013661338 GMT omrport.417 -  <omrmmap_unmap_file: Exiting with rc=0
+3XEHSTTYPE     04:37:10:010429570 GMT omrport.416 -   omrmmap_unmap_file: Handle values are pointer=00007FEDF9400000, size=314572800
+3XEHSTTYPE     04:37:10:010428571 GMT omrport.415 -  >omrmmap_unmap_file: Entering with handle=00007FEE4C0E3470
+3XEHSTTYPE     04:37:10:010427572 GMT j9shr.864 -  >SH_OSCachemmap::internalDetach: Entering
+3XEHSTTYPE     04:37:10:010426573 GMT j9shr.840 -  <SH_OSCachemmap::internalAttach: data address returned is 00007FEDF94000F0 (size of cache header is 240)
+3XEHSTTYPE     04:37:10:010421578 GMT j9shr.839 -   SH_OSCachemmap::internalAttach: j9mmap_map_file successful, file mapped at 00007FEDF9400000
+3XEHSTTYPE     04:37:10:010412587 GMT omrport.404 -  <omrmmap_map_file: Successful, returning pointer=00007FEDF9400000, handle=00007FEE4C0E3470
+3XEHSTTYPE     04:37:10:007165834 GMT omrport.402 -   omrmmap_map_file: Flags set, prot=0x3, flags=0x1
+3XEHSTTYPE     04:37:10:007164835 GMT omrport.400 -  >omrmmap_map_file: Entered, file=4, offset = 0, size=314572800, mappingName=/home/mzs/javasharedresources/C290M11F1A64P_sharedcc_mzs_G41L00, flags=0x24
+3XEHSTTYPE     04:37:10:007145854 GMT j9shr.837 -   SH_OSCachemmap::internalAttach: Successfully acquired attach read lock
+3XEHSTTYPE     04:37:10:007144855 GMT j9shr.799 -  <SH_OSCachemmap::acquireAttachReadLock: Exiting, rc = 0
+3XEHSTTYPE     04:37:10:007143856 GMT j9shr.798 -   SH_OSCachemmap::acquireAttachReadLock: Lock successful
+3XEHSTTYPE     04:37:10:007141858 GMT j9shr.796 -   SH_OSCachemmap::acquireAttachReadLock: Attempting to get lock for file handle = 4, lock flags = 0x5, offset = 156, length = 4
+3XEHSTTYPE     04:37:10:007141858 GMT j9shr.795 -  >SH_OSCachemmap::acquireAttachReadLock: Entering
+3XEHSTTYPE     04:37:10:007140859 GMT j9shr.833 -  >SH_OSCachemmap::internalAttach: Entered
+3XEHSTTYPE     04:37:10:007132867 GMT j9shr.730 -   SH_OSCachemmap::startup: File length > 0, file opened
+3XEHSTTYPE     04:37:10:007125874 GMT j9shr.729 -   SH_OSCachemmap::startup: Successfully acquired header write lock
+3XEHSTTYPE     04:37:10:007124875 GMT j9shr.764 -  <SH_OSCachemmap::acquireHeaderWriteLock: Exiting, rc = 0
+3XEHSTTYPE     04:37:10:007123876 GMT j9shr.763 -   SH_OSCachemmap::acquireHeaderWriteLock: Lock successful
+3XEHSTTYPE     04:37:10:007121878 GMT j9shr.761 -   SH_OSCachemmap::acquireHeaderWriteLock: Attempting to get lock for file handle = 4, lock flags = 0x6, offset = 152, length = 4
+3XEHSTTYPE     04:37:10:007120879 GMT j9shr.760 -  >SH_OSCachemmap::acquireHeaderWriteLock: Entering
+3XEHSTTYPE     04:37:10:007119880 GMT j9shr.725 -   SH_OSCachemmap::startup: Succeeded initializing mutexes
+3XEHSTTYPE     04:37:10:007086913 GMT j9shr.727 -   SH_OSCachemmap::startup: j9file_open successful for cache path name = /home/mzs/javasharedresources/C290M11F1A64P_sharedcc_mzs_G41L00, file handle 4
+3XEHSTTYPE     04:37:10:007085914 GMT j9shr.918 -  <SH_OSCachemmap::openCacheFile: Exit
+3XEHSTTYPE     04:37:10:002377622 GMT j9shr.916 -  >SH_OSCachemmap::openCacheFile: Entered
+3XEHSTTYPE     04:37:10:002376623 GMT j9shr.832 -  <SH_OSCachemmap::getFileMode: Exiting, openMode=0x32, returned perm=0x180
+3XEHSTTYPE     04:37:10:002376623 GMT j9shr.831 -  >SH_OSCachemmap::getFileMode: Entering
+3XEHSTTYPE     04:37:10:002356643 GMT j9shr.1089 -   SH_OSCachemmap::startup: Common startup succeeded
+3XEHSTTYPE     04:37:10:002355644 GMT j9shr.1087 -  <SH_OSCache::commonStartup: Exiting OSCache common startup with success
+3XEHSTTYPE     04:37:10:002355644 GMT j9shr.1086 -   SH_OSCache::commonStartup: Taken local copy of cache path name /home/mzs/javasharedresources/C290M11F1A64P_sharedcc_mzs_G41L00, length 63
+3XEHSTTYPE     04:37:10:002353646 GMT j9shr.1137 -  <OSCache::getCachePathName: Exit
+3XEHSTTYPE     04:37:10:002353646 GMT j9shr.1134 -  >OSCache::getCachePathName: Entry - cacheNameWithVGen=C290M11F1A64P_sharedcc_mzs_G41L00
+3XEHSTTYPE     04:37:10:002352647 GMT j9shr.1125 -  <OSCache::getCacheVersionAndGen: Exit - buffer=C290M11F1A64P_sharedcc_mzs_G41L00
+3XEHSTTYPE     04:37:10:002350649 GMT j9shr.2292 -  >OSCache::getCacheVersionAndGen: Entry - cacheName=sharedcc_mzs generation=41 layer=0
+3XEHSTTYPE     04:37:10:002349650 GMT j9shr.1673 -  <OSCache::createCacheDir: Exit
+3XEHSTTYPE     04:37:10:002348651 GMT j9prt.927 -  <j9sharedhelper ensureDirectory file_attr reported isDir, directory exists and cacheDirPerm is not present
+3XEHSTTYPE     04:37:10:002340659 GMT j9prt.788 -  <j9shmem_getDir: Exiting with buffer=/tmp/javasharedresources/
+3XEHSTTYPE     04:37:10:002339660 GMT j9prt.787 -  >j9shmem_getDir: Entering
+3XEHSTTYPE     04:37:10:002338661 GMT j9prt.791 -  >j9shmem_createDir: Entering
+3XEHSTTYPE     04:37:10:002337662 GMT j9shr.1672 -  >OSCache::createCacheDir: Entry - cacheDirName=/home/mzs/javasharedresources/, cleanMemorySegments=1
+3XEHSTTYPE     04:37:10:002336663 GMT j9shr.1133 -  <OSCache::getCacheDir: Exit
+3XEHSTTYPE     04:37:10:002335664 GMT j9prt.788 -  <j9shmem_getDir: Exiting with buffer=/home/mzs/javasharedresources/
+3XEHSTTYPE     04:37:10:002306693 GMT j9prt.787 -  >j9shmem_getDir: Entering
+3XEHSTTYPE     04:37:10:002305694 GMT j9shr.1129 -  >OSCache::getCacheDir: Entry
+3XEHSTTYPE     04:37:10:002290709 GMT j9shr.1082 -  >SH_OSCache::commonStartup: Entering OSCache common startup
+3XEHSTTYPE     04:37:10:002289710 GMT j9shr.721 -  >SH_OSCachemmap::startup: Entering cache name = sharedcc_mzs, control dir = [Null Pointer], cache size = 314572800, numSems = 2, create flags = 0x1, verbose flags = 0x0, openFlags = 0x32
+3XEHSTTYPE     04:37:10:002275724 GMT j9shr.1761 -  >CC startup: Entering with cacheMemory=0000000000000000, rootName=sharedcc_mzs, ctrlDirName=[Null Pointer], unitTest=0
+3XEHSTTYPE     04:37:10:002265734 GMT j9shr.10 -  >CM startup for cache sharedcc_mzs with size 314572800 begin
+3XEHSTTYPE     04:37:10:002260739 GMT j9shr.5 -  <CM newInstance: Created new instance of SH_CacheMap
+3XEHSTTYPE     04:37:10:002260739 GMT j9shr.7 -  <CM init end
+3XEHSTTYPE     04:37:10:002259740 GMT j9shr.1683 -  <ADMI newInstance: Created AttachedDataManager at address 0x00007FEE4C0E2E58
+3XEHSTTYPE     04:37:10:002258741 GMT j9shr.1685 -  <ADMI initialize: Done initializing AttachedDataManager
+3XEHSTTYPE     04:37:10:002257742 GMT j9shr.1684 -  >ADMI initialize: Initializing AttachedDataManager
+3XEHSTTYPE     04:37:10:002256743 GMT j9shr.1682 -  >ADMI newInstance: Creating new AttachedDataManager. vm=0x00007FEE4C0268F0. cache=0x00007FEE4C0E1F50
+3XEHSTTYPE     04:37:10:002256743 GMT j9shr.701 -  <BDMI newInstance: Created ByteDataManager at address 0x00007FEE4C0E2CF8
+3XEHSTTYPE     04:37:10:002255744 GMT j9shr.703 -  <BDMI initialize: Done initializing ByteDataManager
+3XEHSTTYPE     04:37:10:002254745 GMT j9shr.702 -  >BDMI initialize: Initializing ByteDataManager
+3XEHSTTYPE     04:37:10:002253746 GMT j9shr.700 -  >BDMI newInstance: Creating new ByteDataManager. vm=0x00007FEE4C0268F0. cache=0x00007FEE4C0E1F50
+3XEHSTTYPE     04:37:10:002252747 GMT j9shr.581 -  <CMMI newInstance: Created CompiledMethodManager at address 0x00007FEE4C0E2C48
+3XEHSTTYPE     04:37:10:002252747 GMT j9shr.583 -  <CMMI initialize: Done initializing CompiledMethodManager
+3XEHSTTYPE     04:37:10:002251748 GMT j9shr.582 -  >CMMI initialize: Initializing CompiledMethodManager
+3XEHSTTYPE     04:37:10:002247752 GMT j9shr.580 -  >CMMI newInstance: Creating new CompiledMethodManager. vm=0x00007FEE4C0268F0. cache=0x00007FEE4C0E1F50
+3XEHSTTYPE     04:37:10:002246753 GMT j9shr.117 -  <RMI newInstance: Created ROMClassManager at address 0x00007FEE4C0E2BB8
+3XEHSTTYPE     04:37:10:002245754 GMT j9shr.119 -  <RMI initialize: Done initializing ROMClassManager
+3XEHSTTYPE     04:37:10:002244755 GMT j9shr.118 -  >RMI initialize: Initializing ROMClassManager
+3XEHSTTYPE     04:37:10:002243756 GMT j9shr.1313 -  >RMI newInstance: Creating new ROMClassManager. vm=0x00007FEE4C0268F0. cache=0x00007FEE4C0E1F50. tsm=0x00007FEE4C0E2A68
+3XEHSTTYPE     04:37:10:002243756 GMT j9shr.607 -  <SMI newInstance: Created ScopeManager at address 0x00007FEE4C0E2B38
+3XEHSTTYPE     04:37:10:002242757 GMT j9shr.609 -  <SMI initialize: Done initializing ScopeManager
+3XEHSTTYPE     04:37:10:002241758 GMT j9shr.608 -  >SMI initialize: Initializing ScopeManager
+3XEHSTTYPE     04:37:10:002237762 GMT j9shr.606 -  >SMI newInstance: Creating new ScopeManager. vm=0x00007FEE4C0268F0. cache=0x00007FEE4C0E1F50
+3XEHSTTYPE     04:37:10:002236763 GMT j9shr.194 -  <CMI newInstance: Done creating new ClasspathManager at address 0x00007FEE4C0E2A78
+3XEHSTTYPE     04:37:10:002235764 GMT j9shr.196 -  <CMI initialize: Done initializing ClasspathManager
+3XEHSTTYPE     04:37:10:002234765 GMT j9shr.195 -  >CMI initialize: Initializing ClasspathManager
+3XEHSTTYPE     04:37:10:002226773 GMT j9shr.193 -  >CMI newInstance: Creating new ClasspathManager. vm=0x00007FEE4C0268F0. cache=0x00007FEE4C0E1F50. tsm=0x00007FEE4C0E2A68.
+3XEHSTTYPE     04:37:10:002225774 GMT j9shr.1768 -  >CC getRequiredConstrBytes: Exiting
+3XEHSTTYPE     04:37:10:002224775 GMT j9shr.1767 -  >CC getRequiredConstrBytes: Enter with isNested=0, startupForStats=0, unitTest=0
+3XEHSTTYPE     04:37:10:002220779 GMT j9shr.1018 -  <CC initialize: Exiting
+3XEHSTTYPE     04:37:10:002219780 GMT j9shr.886 -  <SH_OSCache::newInstance: Exiting, return address of object as 00007FEE4C0E28D8
+3XEHSTTYPE     04:37:10:002218781 GMT j9shr.718 -  <SH_OSCachemmap::initialize: Exiting
+3XEHSTTYPE     04:37:10:002217782 GMT j9shr.717 -  >SH_OSCachemmap::initialize: Entering portLibray = 00007FEE520BC360, memForConstructor = 00007FEE4C0E2A20
+3XEHSTTYPE     04:37:10:002213786 GMT j9shr.885 -   SH_OSCache::newInstance: initializing new object
+3XEHSTTYPE     04:37:10:002212787 GMT j9shr.883 -   SH_OSCache::newInstance: creating mmap object at 00007FEE4C0E28D8
+3XEHSTTYPE     04:37:10:002211788 GMT j9shr.2295 -  >SH_OSCache::newInstance: Entered, memForConstructor=00007FEE4C0E28D8, cacheName=sharedcc_mzs, newPersistentCacheReqd=1 layer=0
+3XEHSTTYPE     04:37:10:002206793 GMT j9shr.2294 -  >CC initialize: memForConstructor=00007FEE4C0E28D8, sharedClassConfig=00007FEE4C0E1CF0, cacheName=sharedcc_mzs, newPersistentCacheReqd=1, layer=0, unitTest=0
+3XEHSTTYPE     04:37:10:002199800 GMT j9shr.1766 -  >CM init begin: unitTest=0
+3XEHSTTYPE     04:37:10:002198801 GMT j9shr.4 -  >CM newInstance: Creating new instance of SH_CacheMap. vm=0x00007FEE4C0268F0.
+3XEHSTTYPE     04:37:10:002197802 GMT j9shr.1121 -  <CacheLifecycleManager::j9shr_stat_cache: Exit - returning 0
+3XEHSTTYPE     04:37:10:002196803 GMT j9shr.1141 -  <OSCache::statCache: Exit - cache not found
+3XEHSTTYPE     04:37:10:002195804 GMT omrport.221 -  <omrfile_attr failed. errorCode=-108
+3XEHSTTYPE     04:37:10:002174825 GMT j9shr.1138 -  >OSCache::statCache: Entry - cacheNameWithVGen=C290M11F1A64P_sharedcc_mzs_G41L99
+3XEHSTTYPE     04:37:10:002174825 GMT j9shr.1125 -  <OSCache::getCacheVersionAndGen: Exit - buffer=C290M11F1A64P_sharedcc_mzs_G41L99
+3XEHSTTYPE     04:37:10:002172827 GMT j9shr.2292 -  >OSCache::getCacheVersionAndGen: Entry - cacheName=sharedcc_mzs generation=41 layer=99
+3XEHSTTYPE     04:37:10:002171828 GMT j9shr.1120 -  >CacheLifecycleManager::j9shr_stat_cache: Entry - verboseFlags=0 cacheName=sharedcc_mzs generation=41
+3XEHSTTYPE     04:37:10:002170829 GMT j9shr.1121 -  <CacheLifecycleManager::j9shr_stat_cache: Exit - returning 0
+3XEHSTTYPE     04:37:10:002170829 GMT j9shr.1141 -  <OSCache::statCache: Exit - cache not found
+3XEHSTTYPE     04:37:10:002169830 GMT omrport.221 -  <omrfile_attr failed. errorCode=-108
+3XEHSTTYPE     04:37:10:002148851 GMT j9shr.1138 -  >OSCache::statCache: Entry - cacheNameWithVGen=C290M11F1A64P_sharedcc_mzs_G41L98
+3XEHSTTYPE     04:37:10:002147852 GMT j9shr.1125 -  <OSCache::getCacheVersionAndGen: Exit - buffer=C290M11F1A64P_sharedcc_mzs_G41L98
+3XEHSTTYPE     04:37:10:002146853 GMT j9shr.2292 -  >OSCache::getCacheVersionAndGen: Entry - cacheName=sharedcc_mzs generation=41 layer=98
+3XEHSTTYPE     04:37:10:002145854 GMT j9shr.1120 -  >CacheLifecycleManager::j9shr_stat_cache: Entry - verboseFlags=0 cacheName=sharedcc_mzs generation=41
+3XEHSTTYPE     04:37:10:002144855 GMT j9shr.1121 -  <CacheLifecycleManager::j9shr_stat_cache: Exit - returning 0
+3XEHSTTYPE     04:37:10:002143856 GMT j9shr.1141 -  <OSCache::statCache: Exit - cache not found
+3XEHSTTYPE     04:37:10:002142857 GMT omrport.221 -  <omrfile_attr failed. errorCode=-108
+3XEHSTTYPE     04:37:10:002121878 GMT j9shr.1138 -  >OSCache::statCache: Entry - cacheNameWithVGen=C290M11F1A64P_sharedcc_mzs_G41L97
+3XEHSTTYPE     04:37:10:002121878 GMT j9shr.1125 -  <OSCache::getCacheVersionAndGen: Exit - buffer=C290M11F1A64P_sharedcc_mzs_G41L97
+3XEHSTTYPE     04:37:10:002119880 GMT j9shr.2292 -  >OSCache::getCacheVersionAndGen: Entry - cacheName=sharedcc_mzs generation=41 layer=97
+3XEHSTTYPE     04:37:10:002118881 GMT j9shr.1120 -  >CacheLifecycleManager::j9shr_stat_cache: Entry - verboseFlags=0 cacheName=sharedcc_mzs generation=41
+3XEHSTTYPE     04:37:10:002117882 GMT j9shr.1121 -  <CacheLifecycleManager::j9shr_stat_cache: Exit - returning 0
+3XEHSTTYPE     04:37:10:002117882 GMT j9shr.1141 -  <OSCache::statCache: Exit - cache not found
+3XEHSTTYPE     04:37:10:002116883 GMT omrport.221 -  <omrfile_attr failed. errorCode=-108
+3XEHSTTYPE     04:37:10:002095904 GMT j9shr.1138 -  >OSCache::statCache: Entry - cacheNameWithVGen=C290M11F1A64P_sharedcc_mzs_G41L96
+3XEHSTTYPE     04:37:10:002094905 GMT j9shr.1125 -  <OSCache::getCacheVersionAndGen: Exit - buffer=C290M11F1A64P_sharedcc_mzs_G41L96
+3XEHSTTYPE     04:37:10:002092907 GMT j9shr.2292 -  >OSCache::getCacheVersionAndGen: Entry - cacheName=sharedcc_mzs generation=41 layer=96
+3XEHSTTYPE     04:37:10:002091908 GMT j9shr.1120 -  >CacheLifecycleManager::j9shr_stat_cache: Entry - verboseFlags=0 cacheName=sharedcc_mzs generation=41
+3XEHSTTYPE     04:37:10:002091908 GMT j9shr.1121 -  <CacheLifecycleManager::j9shr_stat_cache: Exit - returning 0
+3XEHSTTYPE     04:37:10:002090909 GMT j9shr.1141 -  <OSCache::statCache: Exit - cache not found
+3XEHSTTYPE     04:37:10:002089910 GMT omrport.221 -  <omrfile_attr failed. errorCode=-108
+3XEHSTTYPE     04:37:10:002068931 GMT j9shr.1138 -  >OSCache::statCache: Entry - cacheNameWithVGen=C290M11F1A64P_sharedcc_mzs_G41L95
+3XEHSTTYPE     04:37:10:002067932 GMT j9shr.1125 -  <OSCache::getCacheVersionAndGen: Exit - buffer=C290M11F1A64P_sharedcc_mzs_G41L95
+3XEHSTTYPE     04:37:10:002065934 GMT j9shr.2292 -  >OSCache::getCacheVersionAndGen: Entry - cacheName=sharedcc_mzs generation=41 layer=95
+3XEHSTTYPE     04:37:10:002064935 GMT j9shr.1120 -  >CacheLifecycleManager::j9shr_stat_cache: Entry - verboseFlags=0 cacheName=sharedcc_mzs generation=41
+3XEHSTTYPE     04:37:10:002064935 GMT j9shr.1121 -  <CacheLifecycleManager::j9shr_stat_cache: Exit - returning 0
+3XEHSTTYPE     04:37:10:002063936 GMT j9shr.1141 -  <OSCache::statCache: Exit - cache not found
+3XEHSTTYPE     04:37:10:002062937 GMT omrport.221 -  <omrfile_attr failed. errorCode=-108
+3XEHSTTYPE     04:37:10:002041958 GMT j9shr.1138 -  >OSCache::statCache: Entry - cacheNameWithVGen=C290M11F1A64P_sharedcc_mzs_G41L94
+3XEHSTTYPE     04:37:10:002040959 GMT j9shr.1125 -  <OSCache::getCacheVersionAndGen: Exit - buffer=C290M11F1A64P_sharedcc_mzs_G41L94
+3XEHSTTYPE     04:37:10:002039960 GMT j9shr.2292 -  >OSCache::getCacheVersionAndGen: Entry - cacheName=sharedcc_mzs generation=41 layer=94
+3XEHSTTYPE     04:37:10:002038961 GMT j9shr.1120 -  >CacheLifecycleManager::j9shr_stat_cache: Entry - verboseFlags=0 cacheName=sharedcc_mzs generation=41
+3XEHSTTYPE     04:37:10:002037962 GMT j9shr.1121 -  <CacheLifecycleManager::j9shr_stat_cache: Exit - returning 0
+3XEHSTTYPE     04:37:10:002036963 GMT j9shr.1141 -  <OSCache::statCache: Exit - cache not found
+3XEHSTTYPE     04:37:10:002036963 GMT omrport.221 -  <omrfile_attr failed. errorCode=-108
+NULL
+1XMTHDSUMMARY  Threads CPU Usage Summary
+NULL           =========================
+NULL
+1XMTHDCATINFO  Warning: to get more accurate CPU times for the GC, the option -XX:-ReduceCPUMonitorOverhead can be used. See the user guide for more information.
+NULL
+1XMTHDCATEGORY All JVM attached threads: 0.359375000 secs
+1XMTHDCATEGORY |
+2XMTHDCATEGORY +--System-JVM: 0.359375000 secs
+2XMTHDCATEGORY |  |
+3XMTHDCATEGORY |  +--GC: 0.0 secs
+2XMTHDCATEGORY |  |
+3XMTHDCATEGORY |  +--JIT: 0.0 secs
+1XMTHDCATEGORY |
+2XMTHDCATEGORY +--Application: 0.0 secs
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       HOOK subcomponent dump routine
+NULL           ==============================
+1NOTE          This data is reset after each javacore file is written
+NULL           ------------------------------------------------------------------------
+1HKINTERFACE   MM_OMRHookInterface
+NULL           ------------------------------------------------------------------------
+1HKINTERFACE   MM_PrivateHookInterface
+NULL           ------------------------------------------------------------------------
+1HKINTERFACE   MM_HookInterface
+NULL           ------------------------------------------------------------------------
+1HKINTERFACE   J9VMHookInterface
+NULL           ------------------------------------------------------------------------
+2HKEVENTID     1
+3HKCALLCOUNT     8
+3HKTOTALTIME     125us
+3HKLAST          Last Callback
+4HKCALLSITE        ../../../../../openj9/runtime/rastrace/trcengine.c:395
+4HKSTARTTIME       Start Time: 2021-02-13T12:37:09.998
+4HKDURATION        Duration: 15us
+3HKLONGST        Longest Callback
+4HKCALLSITE        ../../../../../openj9/runtime/rastrace/trcengine.c:395
+4HKSTARTTIME       Start Time: 2021-02-13T12:37:09.998
+4HKDURATION        Duration: 25us
+NULL
+1HKINTERFACE   J9VMZipCachePoolHookInterface
+NULL           ------------------------------------------------------------------------
+1HKINTERFACE   J9JITHookInterface
+NULL           ------------------------------------------------------------------------
+NULL           ------------------------------------------------------------------------
+0SECTION       SHARED CLASSES subcomponent dump routine
+NULL           ========================================
+NULL
+1SCLTEXTCRTW       Cache Created With
+NULL               ------------------
+NULL
+2SCLTEXTXNL            -Xnolinenumbers       = false
+2SCLTEXTBCI            BCI Enabled           = true
+2SCLTEXTBCI            Restrict Classpaths   = false
+NULL
+1SCLTEXTCSUM       Cache Summary
+NULL               ------------------
+NULL
+2SCLTEXTNLC            No line number content                    = false
+2SCLTEXTLNC            Line number content                       = true
+NULL
+2SCLTEXTRCS            ROMClass start address                    = 0x00007FEDF9459000
+2SCLTEXTRCE            ROMClass end address                      = 0x00007FEDF955D6A8
+2SCLTEXTMSA            Metadata start address                    = 0x00007FEE0A80400C
+2SCLTEXTCEA            Cache end address                         = 0x00007FEE0C000000
+2SCLTEXTRTF            Runtime flags                             = 0x80102001ECA6209B
+2SCLTEXTCGN            Cache generation                          = 41
+NULL
+2SCLTEXTCSZ            Cache size                                = 314572192
+2SCLTEXTSMB            Softmx bytes                              = 67108864
+2SCLTEXTFRB            Free bytes                                = 65376890
+2SCLTEXTARB            Reserved space for AOT bytes              = -1
+2SCLTEXTAMB            Maximum space for AOT bytes               = -1
+2SCLTEXTJRB            Reserved space for JIT data bytes         = -1
+2SCLTEXTJMB            Maximum space for JIT data bytes          = -1
+2SCLTEXTRWB            ReadWrite bytes                           = 363936
+2SCLTEXTMDA            Metadata bytes                            = 12332
+2SCLTEXTDAS            Class debug area size                     = 25133056
+2SCLTEXTDAU            Class debug area % used                   = 1%
+2SCLTEXTDAN            Class LineNumberTable bytes               = 102646
+2SCLTEXTDAV            Class LocalVariableTable bytes            = 181748
+2SCLTEXTRCB            ROMClass bytes                            = 1066664
+2SCLTEXTAOB            AOT code bytes                            = 3576
+2SCLTEXTADB            AOT data bytes                            = 280
+2SCLTEXTAHB            AOT class hierarchy bytes                 = 160
+2SCLTEXTATB            AOT thunk bytes                           = 0
+2SCLTEXTJHB            JIT hint bytes                            = 24
+2SCLTEXTJPB            JIT profile bytes                         = 0
+2SCLTEXTNOB            Java Object bytes                         = 0
+2SCLTEXTZCB            Zip cache bytes                           = 0
+2SCLTEXTSHB            Startup hint bytes                        = 0
+2SCLTEXTJCB            JCL data bytes                            = 0
+2SCLTEXTBDA            Byte data bytes                           = 0
+NULL
+2SCLTEXTNRC            Number ROMClasses                         = 269
+2SCLTEXTNAM            Number AOT Methods                        = 2
+2SCLTEXTNAD            Number AOT Data Entries                   = 1
+2SCLTEXTNAH            Number AOT Class Hierarchy                = 3
+2SCLTEXTNAT            Number AOT Thunks                         = 0
+2SCLTEXTNJH            Number JIT Hints                          = 1
+2SCLTEXTNJP            Number JIT Profiles                       = 0
+2SCLTEXTNCP            Number Classpaths                         = 1
+2SCLTEXTNUR            Number URLs                               = 0
+2SCLTEXTNTK            Number Tokens                             = 0
+2SCLTEXTNOJ            Number Java Objects                       = 0
+2SCLTEXTNZC            Number Zip Caches                         = 0
+2SCLTEXTNSH            Number Startup Hint Entries               = 0
+2SCLTEXTNJC            Number JCL Entries                        = 0
+2SCLTEXTNST            Number Stale classes                      = 0
+2SCLTEXTPST            Percent Stale classes                     = 0
+NULL
+2SCLTEXTCPF            Cache is 2% soft full
+NULL
+1SCLTEXTCMST       Cache Memory Status
+NULL               ------------------
+1SCLTEXTCNTD           Cache Name                    Feature                  Memory type              Cache path
+NULL
+2SCLTEXTCMDT           sharedcc_mzs                  CR                       Memory mapped file       /home/mzs/javasharedresources/C290M11F1A64P_sharedcc_mzs_G41L00
+NULL
+1SCLTEXTCMST       Cache Lock Status
+NULL               ------------------
+1SCLTEXTCNTD           Lock Name                     Lock type                TID owning lock
+NULL
+2SCLTEXTCWRL           Cache write lock              File lock                0x0000000000007700
+2SCLTEXTCRWL           Cache read/write lock         File lock                Unowned
+NULL
+NULL
+NULL           ------------------------------------------------------------------------
+0SECTION       CLASSES subcomponent dump routine
+NULL           =================================
+1CLTEXTCLLOS   	Classloader summaries
+1CLTEXTCLLSS   		12345678: 1=primordial,2=extension,3=shareable,4=middleware,5=system,6=trusted,7=application,8=delegating
+2CLTEXTCLLOADER		p---st-- Loader *System*(0x0000000000000000)
+3CLNMBRLOADEDLIB		Number of loaded libraries 0
+3CLNMBRLOADEDCL			Number of loaded classes 0
+1CLTEXTCLLIB   	ClassLoader loaded libraries
+1CLTEXTCLLOD   	ClassLoader loaded classes
+2CLTEXTCLLOAD  		Loader *System*(0x0000000000000000)
+NULL           ------------------------------------------------------------------------
+0SECTION       Javadump End section
+NULL           ---------------------- END OF DUMP -------------------------------------
